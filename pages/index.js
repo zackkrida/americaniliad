@@ -1,6 +1,6 @@
 export default function Index() {
   return (
-    <div>
+    <div className="app blog">
       <main>
         <header>
           <h1>American Iliad</h1>

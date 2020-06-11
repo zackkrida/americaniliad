@@ -26,39 +26,6 @@ Variables (Page colors at bottom of doc)
 }
 
 /* -----------------------------------
-Fonts
--------------------------------------- */
-
-@font-face {
-  font-family: 'IvarTxt';
-  font-display: swap;
-  src: url('/fonts/ivar-text-regular.woff2') format('woff2'),
-    url('/fonts/ivar-text-regular.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'IvarTxt';
-  font-style: italic;
-  font-display: swap;
-  src: url('/fonts/ivar-text-italic.woff2') format('woff2'),
-    url('/fonts/ivar-text-italic.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Soehne';
-  font-display: swap;
-  src: url('/fonts/soehne-web-regular.woff2') format('woff2'),
-    url('/fonts/soehne-web-regular.woff') format('woff');
-}
-@font-face {
-  font-family: 'Soehne';
-  font-weight: bold;
-  font-display: swap;
-  src: url('/fonts/soehne-web-halbfett.woff2') format('woff2'),
-    url('/fonts/soehne-web-halbfett.woff') format('woff');
-}
-
-/* -----------------------------------
 Base
 -------------------------------------- */
 
@@ -74,14 +41,19 @@ html {
   font-family: var(--font-serif);
   font-feature-settings: 'kern', 'liga';
   margin: 0 auto;
-  max-width: 1400px;
 }
 
 body {
+  margin: 0;
+}
+
+.app {
+  width: 100%;
   color: var(--color-base);
   background-color: var(--color-bg);
   padding: calc(0.5rem + 3vh) calc(0.5rem + 4vw);
-  margin: 0;
+  margin: 0 auto;
+  min-height: 100vh;
 }
 
 /* -----------------------------------
@@ -206,9 +178,6 @@ nav a.logo:hover svg path {
   }
   nav a.logo {
     margin-bottom: var(--spacing-m);
-  }
-  body {
-    margin: 0 5rem;
   }
 }
 
@@ -771,7 +740,14 @@ html {
   --color-bg: #fff;
 }
 
-:root {
+.app {
+  --color-base: #4c5461;
+  --color-mid: #a2aab6;
+  --color-dim: #dfe1e7;
+  --color-bg: #fff;
+}
+
+.app.blog {
   --color-bg: #373a43;
   --color-base: #e7ecf8;
   --color-mid: #878d9b;
