@@ -35,7 +35,7 @@ export default function BlogPost() {
           </p>
           <h2>Changes in Interpretation</h2>
           <p>
-            The three volumes of Foote&rsquo;s
+            The three volumes of Foote&rsquo;s{' '}
             <em>The Civil War: A Narrative </em>were published in 1958, 1963,
             and 1975, a time of sweeping social change in the American south.
             Parallel to this was a dramatic course correction in the
