@@ -4,7 +4,10 @@ export default function Index() {
       <main>
         <header>
           <h1>The American Iliad</h1>
-          {/* <p>A blog. This is a subtitle.</p> */}
+          <p>
+            A blog and running commentary on Shelby Foote's Civil War trilogy
+            and tangentially related topics, on mostly aesthetic grounds.
+          </p>
         </header>
 
         <section className="posts">
