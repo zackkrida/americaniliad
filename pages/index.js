@@ -3,22 +3,16 @@ export default function Index() {
     <div className="app blog">
       <main>
         <header>
-          <h1>American Iliad</h1>
-          <p>A blog. This is a subtitle.</p>
+          <h1>The American Iliad</h1>
+          {/* <p>A blog. This is a subtitle.</p> */}
         </header>
 
         <section className="posts">
           <ul>
             <li>
-              <a href="/blog/example">
-                <span>A Blog Title</span>
-                <span>2020.06.10</span>
-              </a>
-            </li>
-            <li>
-              <a href="/blog/example">
-                <span>Another, longer post</span>
-                <span>2020.06.04</span>
+              <a href="/blog/an-introduction">
+                <span>An Introduction</span>
+                <span>2020.06.15</span>
               </a>
             </li>
           </ul>
