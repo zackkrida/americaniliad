@@ -224,7 +224,7 @@ main header {
 main header p {
   margin: 0;
   color: var(--color-mid);
-  max-width: 27em;
+  max-width: 30em;
 }
 
 main,
