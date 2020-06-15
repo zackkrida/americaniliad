@@ -102,10 +102,10 @@ export default function BlogPost() {
           <p>
             In 1988, two books were released that have set the terms of
             discussion on the Civil War that I expect to last beyond my
-            lifetime. Eric Foner published his
+            lifetime. Eric Foner published his{' '}
             <em>
               Reconstruction: America&rsquo;s Unfinished Revolution 1863-1877
-            </em>
+            </em>{' '}
             and James McPherson published <em>The Battle Cry of Freedom. </em>
             Neither of these men were military historians. Both were more
             interested in the Emancipation Proclamation than Jackson&rsquo;s
