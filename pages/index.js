@@ -18,6 +18,12 @@ export default function Index() {
                 <span>2020.06.15</span>
               </a>
             </li>
+            <li>
+              <a href="/blog/beginnings">
+                <span>Beginnings</span>
+                <span>2020.06.16</span>
+              </a>
+            </li>
           </ul>
         </section>
       </main>
