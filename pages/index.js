@@ -13,15 +13,15 @@ export default function Index() {
         <section className="posts">
           <ul>
             <li>
-              <a href="/blog/an-introduction">
-                <span>An Introduction</span>
-                <span>2020.06.15</span>
-              </a>
-            </li>
-            <li>
               <a href="/blog/beginnings">
                 <span>Beginnings</span>
                 <span>2020.06.16</span>
+              </a>
+            </li>
+            <li>
+              <a href="/blog/an-introduction">
+                <span>An Introduction</span>
+                <span>2020.06.15</span>
               </a>
             </li>
           </ul>
